@@ -179,3 +179,50 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# Data and models
+data/
+models/
+checkpoints/
+*.csv
+*.json
+*.db
+
+# Airflow
+airflow/logs/
+airflow/dags/__pycache__/
+airflow/plugins/__pycache__/
+airflow/airflow.db
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Credentials
+*.env
+.env.*
+secrets/
+keys/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
