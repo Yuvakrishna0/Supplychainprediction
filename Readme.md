@@ -1,0 +1,1 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yuva-krishna/supplychain-early-warning/blob/main/notebooks/training_pipeline.ipynb)
